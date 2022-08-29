@@ -1,0 +1,43 @@
+.about{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.info p{
+    color: #e21087;
+    font-size: 30px;
+}
+
+@media screen and (min-width: 768px){
+    body{
+        background-color: black;
+        height: 100vh;
+    }
+}
+
+@media screen and (max-width: 768px){
+    body{
+        background-color: blue;
+        height: 100vh;
+    }
+    .about{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .img{
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+    }
+    
+    .info p{
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+    }
+}
